@@ -70,7 +70,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MGd-cX-R1i">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="10" width="375" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Hd1-OL-3D2"/>
                                 </constraints>
@@ -85,7 +85,7 @@
                                 </items>
                             </navigationBar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kjZ-fH-Exg">
-                                <rect key="frame" x="16" y="52" width="343" height="539"/>
+                                <rect key="frame" x="16" y="62" width="343" height="529"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -113,7 +113,7 @@
                             <constraint firstItem="MGd-cX-R1i" firstAttribute="trailing" secondItem="ub2-wD-Xu8" secondAttribute="trailing" id="IkO-xF-gdH"/>
                             <constraint firstItem="kjZ-fH-Exg" firstAttribute="leading" secondItem="ub2-wD-Xu8" secondAttribute="leading" constant="16" id="RNd-f7-bia"/>
                             <constraint firstItem="ub2-wD-Xu8" firstAttribute="trailing" secondItem="kjZ-fH-Exg" secondAttribute="trailing" constant="16" id="VRG-XL-pKj"/>
-                            <constraint firstItem="MGd-cX-R1i" firstAttribute="top" secondItem="P6t-HT-Zx7" secondAttribute="top" id="Ydj-4q-Otf"/>
+                            <constraint firstItem="MGd-cX-R1i" firstAttribute="top" secondItem="P6t-HT-Zx7" secondAttribute="top" constant="10" id="Ydj-4q-Otf"/>
                             <constraint firstItem="kjZ-fH-Exg" firstAttribute="top" secondItem="MGd-cX-R1i" secondAttribute="bottom" constant="8" id="jtf-gF-yQz"/>
                             <constraint firstItem="ub2-wD-Xu8" firstAttribute="trailing" secondItem="Xwl-Di-SwM" secondAttribute="trailing" constant="16" id="kKP-Pv-Ufn"/>
                             <constraint firstItem="kjZ-fH-Exg" firstAttribute="top" secondItem="MGd-cX-R1i" secondAttribute="bottom" constant="8" id="nUw-pj-uTn"/>
